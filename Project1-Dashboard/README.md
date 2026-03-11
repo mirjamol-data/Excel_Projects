@@ -28,9 +28,10 @@ The dataset used for this project contains real-world data science job informati
 
 ### 📉 Charts
 
-### 📊 Data Science Job Salaries - Bar Chart  
+### 📊 Data Jobs Salaries - Bar Chart  
 
-![alt text](image.png)
+<img width="521" height="302" alt="Screenshot 2026-03-11 072059" src="https://github.com/user-attachments/assets/4126e529-0ff7-4e91-b815-1b2fbc2d42f7" />
+
 
 - 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
@@ -39,8 +40,7 @@ The dataset used for this project contains real-world data science job informati
 
 ### 🗺️ Country Median Salaries - Map Chart
 
-![alt text](gif_map.gif)
-
+![gif_map](https://github.com/user-attachments/assets/f4b7661a-7e58-4b5d-befe-d919baa0f5b1)
 
 - 🛠️ **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
 - 🎨 **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
@@ -71,13 +71,15 @@ IF(
 - **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
 🍽️ Background Table for Bar chart and Map:
-![alt text](image-4.png)
+
+<img width="1153" height="371" alt="Screenshot 2026-03-11 074709" src="https://github.com/user-attachments/assets/fb2d573f-8347-4bb2-a58e-ef425050557f" />
 
 
 ### ⏰ Count of Job Schedule Type
 
-![alt text](image-2.png)
+<img width="454" height="529" alt="Screenshot 2026-03-11 074140" src="https://github.com/user-attachments/assets/462b4769-44e7-4a79-bd00-adf9e2874c46" />  
 
+#### Formula used:
 ```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
@@ -87,7 +89,8 @@ IF(
 
 🍽️ Background Table:
 
-![alt text](image-3.png)
+<img width="940" height="368" alt="Screenshot 2026-03-11 074515" src="https://github.com/user-attachments/assets/00dd79ad-6607-40fd-869e-287c75dde67d" />  
+
 
 ### ✔️ Data Validation
 
@@ -99,7 +102,8 @@ IF(
 - 👥 Overall usability of the dashboard is enhanced
 - 🫣 Background Tables are hided.
 
-![alt text](gif_data_valid.gif)
+![gif_data_valid](https://github.com/user-attachments/assets/253f15cb-25f4-4017-98c6-82f9fa84e81e)
+
 
 
 ## ✅ Conclusion
