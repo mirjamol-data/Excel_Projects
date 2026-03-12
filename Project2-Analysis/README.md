@@ -38,24 +38,27 @@ The dataset used for this project contains real-world data science job informati
 
 - Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
     - 📊 data_jobs_all  
-        INSERT SCREENSHOT 
+        <img width="341" height="422" alt="Screenshot 2026-03-11 094429" src="https://github.com/user-attachments/assets/58fbc787-ef67-4ed7-ac39-12286c26054d" />
+
 
     - 🛠️ data_job_skills  
-        INSERT SCREENSHOT 
+        <img width="340" height="443" alt="Screenshot 2026-03-11 094441" src="https://github.com/user-attachments/assets/256e4b41-1763-4c31-adaa-9e9580e86d31" />
+
 
 #### 🔗 Load
 
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
-    - 📊 data_jobs_all  
-        INSERT TABLE screen
+    - 📊 data_jobs_all   
+        <img width="1919" height="1022" alt="Screenshot 2026-03-11 094819" src="https://github.com/user-attachments/assets/6d8c3cfd-048e-42b2-8e1e-18e3e55c26c2" />
+
 
     - 🛠️ data_job_skills  
-        INSERT TABLE screen
+        <img width="1919" height="1017" alt="Screenshot 2026-03-11 094833" src="https://github.com/user-attachments/assets/f5c92c1c-1a44-42fe-a455-ac1e79857b69" />
 
 ### 📊 Analysis
-I created this Scatterplot Pivot Chart by creating "Median Salary" and "Skills per Job" measures on Power Pivot.
+I created this Scatterplot Pivot Chart by drag-droping "Median Salary" and "Skills per Job" measures created on Power Pivot.
 
-SCATTERPLOT
+<img width="748" height="467" alt="Screenshot 2026-03-11 095357" src="https://github.com/user-attachments/assets/3d4124a0-1559-49ae-aae0-2f121314f208" />
 
 #### 💡 Insights
 
@@ -92,7 +95,8 @@ SCATTERPLOT
 
 ### 📊 Analysis
 
-MEDIAN SALARY US NON US TABLE
+<img width="1057" height="452" alt="Screenshot 2026-03-12 051145" src="https://github.com/user-attachments/assets/d8a89aec-b496-4550-8188-7598a29efcc1" />
+
 
 #### 💡 Insights
 
@@ -113,25 +117,26 @@ MEDIAN SALARY US NON US TABLE
 
 - 🔗 I created a data model by integrating the `data_jobs_all` and `data_jobs_skills` tables into one model.
 - 🧹 Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
-- I also added slicers for Job title and Country 
+- 📋 I also added slicers for Job title and Country 
 
 #### 🔗 Data Model
 
 - I created a relationship between my two tables using the `job_id` column.
 
-DATA MODEL SCREENSHOT HERE 
+<img width="683" height="764" alt="Screenshot 2026-03-12 051605" src="https://github.com/user-attachments/assets/14f782a1-1e0e-4493-bc93-099a805e561f" />
 
 #### 📃 Power Pivot Menu
 
 - The Power Pivot menu was used to refine my data model and makes it easy to create measures.
 
-TABLE IN POWER PIVOT MENU
+<img width="1899" height="820" alt="Screenshot 2026-03-12 051633" src="https://github.com/user-attachments/assets/2ee767fb-6824-4197-a2da-0114294c74e1" />
+
 
 ### 📊Analysis
 
-#### 💡Insights
+<img width="1350" height="447" alt="Screenshot 2026-03-12 052039" src="https://github.com/user-attachments/assets/e2c46943-51e1-4e93-80a3-c51dc8fb68ef" />
 
-SKILL LIKELIHOOD HERE 
+#### 💡Insights
 
 - 💻 SQL and Python dominate as top skills in data-related jobs, reflecting their foundational role in data processing and analysis.
 - ☁️ Emerging technologies like AWS and Azure also show significant presence, underlining the industry's shift towards cloud services and big data technologies.
@@ -153,7 +158,8 @@ SKILL LIKELIHOOD HERE
 
 ### 📊 Analysis
 
-COMBO CHART HERE 
+
+<img width="1202" height="512" alt="Screenshot 2026-03-11 062940" src="https://github.com/user-attachments/assets/452fe778-71e0-44bd-a779-f3eb9caee744" />
 
 
 #### 💡Insights
