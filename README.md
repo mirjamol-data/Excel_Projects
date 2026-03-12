@@ -1,13 +1,13 @@
 # My Excel Data Analytics Projects  
 
-## Salary Dashboard  
+## 1) Salary Dashboard  
 This data jobs salary dashboard was created to compare salaries of different data roles in different countries.  
 [Check out my work here](Project1-Dashboard)  
 
 ![salary_dashboard (1)](https://github.com/user-attachments/assets/6b5ca0eb-ab7c-4a7f-bab9-990c4c2a189e)
 
 
-## Salary Analysis
+## 2) Salary Analysis
 I analyzed salaries of data jobs and investigated top requiered skills in job postings  
 [Check out my work here](Project2-Analysis)  
 
