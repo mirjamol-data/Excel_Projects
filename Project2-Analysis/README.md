@@ -1,6 +1,6 @@
 # Excel Salary Analysis
 
-I analyzed salaries of data jobs and investigated top requiered skills in job postings to answer the following questions: 
+I analyzed salaries of data jobs and investigated top required skills in job postings to answer the following questions: 
 
 ### Questions to Analyze
 1. **Do more skills get you better pay?**
